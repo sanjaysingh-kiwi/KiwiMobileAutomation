@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Topfan" parallel="tests" thread-count="8">
+  <test name="001_TC_IOS_VerifyHomePage">
+    <parameters>
+      <parameter name="browser" value="na" />
+    </parameters>
+    <classes>
+      <class name="applicationComponent.Topfan.IOSAppAc">
+        <methods>
+          <include name="openApplication" />
+          <include name="verifyHomePage" />
+          <include name="closeApplication" />
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
+

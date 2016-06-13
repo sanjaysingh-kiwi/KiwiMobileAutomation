@@ -1,0 +1,27 @@
+ [
+  {
+  "courseName": "Maths",
+  "courseIcon": "icon_maths"
+  
+  },
+  {
+  "courseName": "Physics",
+  "courseIcon": "icon_physics"
+  
+  },
+  {
+  "courseName": "Botany",
+  "courseIcon": "icon_botany"
+  
+  },
+  {
+  "courseName": "History",
+  "courseIcon": "icon_history"
+  
+  },
+  {
+  "courseName": "English",
+  "courseIcon": "icon_english"
+  
+  }
+  ]

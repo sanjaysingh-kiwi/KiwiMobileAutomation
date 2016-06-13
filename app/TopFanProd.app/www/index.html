@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>VisitMobile</title>
+        <meta content='YES' name='apple-touch-fullscreen'>
+            <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' name='viewport'>
+                <meta content='YES' name='apple-mobile-web-app-capable'>
+                    <meta content='black' name='apple-mobile-web-app-status-bar-style'>
+                        <meta content='telephone=no' name='format-detection'>
+                            <link href="assets/vm_application.css" media="all" rel="stylesheet" type="text/css" />
+                            <!-- Cordova is a little funky - it overrides document.addEventListener to do its thing, so it needs to be loaded first -->
+                            <script src="assets/cordova-core.js" type="text/javascript"></script>
+                            <script src="assets/cordova-plugins.js" type="text/javascript"></script>
+                            <script src="assets/application.js" type="text/javascript"></script>
+                            <script src='https://maps.googleapis.com/maps/api/js?v=3&amp;sensor=true'></script>
+                                <script>
+                                window.buildConfig = {"facebookAppId":"354909794599367","testflightToken":"d57f26614c04d923f85571a93ec0ac71_NzA3MzkyMDEyLTAzLTEyIDE4OjUyOjM3LjMwNjMwNA","appThemeColor":"#bdfe2b","organizationName":"VisitMobile","pushEnvironment":"release"};
+                                function callApp(platform,buildNumber,clientId,clientSecret,defaultHost,platformName,city_id,list_id,filter_id,is_page_remove,data_id) {
+                                localStorage.setItem('city_id', city_id);
+                                localStorage.setItem('list_id', list_id);
+                                localStorage.setItem('filter_id', filter_id);
+                                localStorage.setItem('test', 0);
+                                if(is_page_remove) {
+                                 localStorage.setItem('data_id',data_id);
+                                } else {
+                                    localStorage.setItem('data_id','');
+                                }
+                                var me = window.buildConfig;
+                                me.platform = platform,
+                                me.buildNumber = buildNumber,
+                                me.clientId = clientId,
+                                me.clientSecret = clientSecret,
+                                me.defaultHost = defaultHost;
+                                me.platformName = platformName;
+                                if(document.location.protocol.match(/http/)) {
+                                $(document).ready(function() {
+                                console.log('Booting app from document ready');
+                                TopFan.AppState.getInstance().setIsInCordova(false);
+                                TopFan.Initializer.setup($('section#application'),null);
+                                });
+                                } else {
+                                document.addEventListener('deviceready', function() {
+                                console.log('Booting app from device ready');
+                                TopFan.AppState.getInstance().setIsInCordova(true);
+                                TopFan.Initializer.setup($('section#application'),null);
+                                }, false);
+                                }
+                                }
+                                
+                                // callApp("android",813,"v9N8AU5LPBBueZgPGJIM7AvCgJnkKPjVF4OgHg8wt6lzFHiq","MDlSGtbnC4KLx5M2OX95ewvYed7t6NLWpN9TiyCtpJ7VSzxG","api.top-fan.com","Android",19,299);
+                                
+                                //  callApp("android",813,"v9N8AU5LPBBueZgPGJIM7AvCgJnkKPjVF4OgHg8wt6lzFHiq","MDlSGtbnC4KLx5M2OX95ewvYed7t6NLWpN9TiyCtpJ7VSzxG","topfan-staging.herokuapp.com","Android",19,19,"");
+                                
+                                </script>
+                                </head>
+                                <body class='visitmobile'>
+                                <section id='application'></section>
+                                <section id='no_internet'></section>
+                                <section id='loader'></section>
+                                <nav id='app_menu'></nav>
+                                </body>
+                                </html>
+                                

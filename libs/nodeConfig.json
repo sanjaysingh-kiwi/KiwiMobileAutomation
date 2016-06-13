@@ -1,0 +1,24 @@
+{
+  "capabilities": [
+    {
+      "browserName": "firefox",
+      "acceptSslCerts": true,
+      "javascriptEnabled": true,
+      "platform": "LINUX",
+      "maxInstances": 5,
+      "firefox_binary": "",
+      "cleanSession": true 
+    }
+  ],
+  "configuration": {
+    "_comment" : "Configuration for Linux",
+    "cleanUpCycle": 2000,
+    "timeout": 30000,
+    "proxy": "org.openqa.grid.selenium.proxy.WebDriverRemoteProxy",
+    "port": 2244,
+    "host": 14.141.55.102,
+    "register": true,
+    "hubPort": 8888,
+    "maxSessions": 5
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "Response": {
+    "status": "success",
+    "LastModified": "2016-03-18 09:50:13",
+    "Courses": [
+                {
+                "id": "2159658745547s9947454555",
+                "title": "Math",
+                "icon": "icon_math1",
+                "color_id":"1"
+                },
+                {
+                "id": "2159658745647sd747454555",
+                "title": "World Language",
+                "icon": "icon_religion",
+                "color_id":"1"
+                },
+                {
+                "id": "2159657885547sd747454555",
+                "title": "Writing",
+                "icon": "icon_english_writing2",
+                "color_id":"1"
+                },
+                
+                {
+                "id": "2159874784774587454555",
+                "title": "Language Arts",
+                "icon": "icon_english_writing1",
+                "color_id":"3"
+                },
+                {
+                "id": "2159874577874587454555",
+                "title": "English",
+                "icon": "icon_english_writing1",
+                "color_id":"3"
+                },
+                {
+                "id": "215965874556784587454555",
+                "title": "Social Studies",
+                "icon": "icon_socialstudies1",
+                "color_id":"5"
+                },
+                {
+                "id": "2154965874987094587454555",
+                "title": "History",
+                "icon": "icon_socialstudies1",
+                "color_id":"6"
+                },
+                {
+                "id": "2159658745890974587454555",
+                "title": "Science",
+                "icon": "icon_physics-1",
+                "color_id":"7"
+                },
+                {
+                "id": "215965876947854774587454555",
+                "title": "Music",
+                "icon": "icon_music",
+                "color_id":"8"
+                },
+                {
+                "id": "21596587454554784587454555",
+                "title": "Art",
+                "icon": "icon_drawing1",
+                "color_id":"9"
+                },
+                {
+                "id": "21596587560954774587454555",
+                "title": "Gym",
+                "icon": "icon_gym1",
+                "color_id":"1"
+                }
+                
+                ],
+    "Materials": [
+                  {
+                  "id": "1",
+                  "title": "Device",
+                  "icon_id": "2"
+                  },
+                  {
+                  "id": "2",
+                  "title": "Folder",
+                  "icon_id": "1"
+                  },
+                  {
+                  "id": "3",
+                  "title": "Notebook",
+                  "icon_id": "3"
+                  },
+                  {
+                  "id": "5",
+                  "title": "Notecards",
+                  "icon_id": "5"
+                  }
+                  ,
+                  {
+                  "id": "6",
+                  "title": "Textbook",
+                  "icon_id": "4"
+                  }
+                  ,
+                  {
+                  "id": "7",
+                  "title": "Workbook",
+                  "icon_id": "6"
+                  }
+                  ],
+    "TaskType": [
+                 {
+                 "id": "1",
+                 "title": "Quiz",
+                 "icon": "quiz.png",
+                 "user_sub_task": [
+                                   "1",
+                                   "2"
+                                   ]
+                 },
+                 {
+                 "id": "2",
+                 "title": "Test",
+                 "icon": "test.png",
+                 "user_sub_task": [
+                                   "4",
+                                   "5",
+                                   "6"
+                                   ]
+                 },
+                 {
+                 "id": "3",
+                 "title": "Paper",
+                 "icon": "paper.png",
+                 "user_sub_task": [
+                                   "3"
+                                   ]
+                 },
+                 {
+                 "id": "4",
+                 "title": "Project",
+                 "icon": "product.png",
+                 "user_sub_task": [
+                 
+                 ]
+                 }
+                 ],
+    "SubTask": [
+                {
+                "id": "1",
+                "title": "Create study tool",
+                "task_type_id": 1,
+                "user_task_id": 1,
+                "due_date": "2016-03-11T00:00:00+0000",
+                "completed_date": "2016-03-18T00:00:00+0000",
+                "notes": "test test",
+                "duration": 2,
+                "taskMaterialRelation": [
+                                         "1",
+                                         "3",
+                                         "6"
+                                         ]
+                },
+                {
+                "id": "2",
+                "title": "Gather resources",
+                "task_type_id": 1,
+                "user_task_id": 2,
+                "due_date": "2016-03-11T00:00:00+0000",
+                "completed_date": "2016-03-18T00:00:00+0000",
+                "notes": "test test",
+                "duration": 2,
+                "taskMaterialRelation": [
+                                         "1",
+                                         "4",
+                                         "5"
+                                         ]
+                },
+                {
+                "id": "3",
+                "title": "Prewriting",
+                "task_type_id": 3,
+                "user_task_id": 3,
+                "due_date": "2016-03-11T00:00:00+0000",
+                "completed_date": "2016-03-18T00:00:00+0000",
+                "notes": "test test",
+                "duration": 2,
+                "taskMaterialRelation": [
+                
+                ]
+                },
+                {
+                "id": "4",
+                "title": "Create study tool",
+                "task_type_id": 2,
+                "user_task_id": 1,
+                "due_date": "2016-03-11T00:00:00+0000",
+                "completed_date": "2016-03-18T00:00:00+0000",
+                "notes": "test test",
+                "duration": 2,
+                "taskMaterialRelation": [
+                
+                ]
+                },
+                {
+                "id": "5",
+                "title": "Review material",
+                "task_type_id": 2,
+                "user_task_id": 2,
+                "due_date": "2016-03-11T00:00:00+0000",
+                "completed_date": "2016-03-18T00:00:00+0000",
+                "notes": "test test",
+                "duration": 2,
+                "taskMaterialRelation": [
+                
+                ]
+                },
+                {
+                "id": "6",
+                "title": "Quiz yourself or be quizzed",
+                "task_type_id": 7,
+                "user_task_id": 1,
+                "due_date": "2016-03-14T20:04:49+0000",
+                "completed_date": "2016-03-14T20:04:49+0000",
+                "notes": "this is title 6",
+                "duration": 3,
+                "taskMaterialRelation": [
+                
+                ]
+                }
+                ]
+  }
+}

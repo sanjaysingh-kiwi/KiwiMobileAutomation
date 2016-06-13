@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="8" name="Failed suite [Topfan]" parallel="tests">
+  <parameter name="browser" value="na"/>
+  <test name="001_TC_IOS_VerifyHomePage(failed)" parallel="tests">
+    <parameter name="browser" value="na"/>
+    <classes>
+      <class name="applicationComponent.Topfan.IOSAppAc">
+        <methods>
+          <include name="verifyHomePage"/>
+          <include name="globalInitialize"/>
+          <include name="afterTest"/>
+          <include name="intializer"/>
+          <include name="reportSuite"/>
+        </methods>
+      </class> <!-- applicationComponent.Topfan.IOSAppAc -->
+    </classes>
+  </test> <!-- 001_TC_IOS_VerifyHomePage(failed) -->
+</suite> <!-- Failed suite [Topfan] -->

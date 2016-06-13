@@ -1,0 +1,22 @@
+ [
+  {
+  "name": "iPad",
+  "icon": "icon_iPad"
+  
+  },
+  {
+  "name": "iPhone",
+  "icon": "icon_notebook"
+  
+  },
+  {
+  "name": "Pain",
+  "icon": "icon_notebook"
+  
+  },
+  {
+  "name": "Pencil",
+  "icon": "icon_notebook"
+  
+  }
+  ]

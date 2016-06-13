@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Topfan" duration-ms="183180" started-at="2016-06-10T07:51:47Z" finished-at="2016-06-10T07:54:50Z">
+    <groups>
+    </groups>
+    <test name="001_TC_IOS_VerifyHomePage" duration-ms="183180" started-at="2016-06-10T07:51:47Z" finished-at="2016-06-10T07:54:50Z">
+      <class name="applicationComponent.Topfan.IOSAppAc">
+        <test-method status="PASS" signature="globalInitialize()[pri:0, instance:applicationComponent.Topfan.IOSAppAc@25084a1e]" name="globalInitialize" is-config="true" duration-ms="11" started-at="2016-06-10T13:21:47Z" finished-at="2016-06-10T13:21:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- globalInitialize -->
+        <test-method status="PASS" signature="intializer(org.testng.ITestContext, java.lang.String)[pri:0, instance:applicationComponent.Topfan.IOSAppAc@25084a1e]" name="intializer" is-config="true" duration-ms="51210" started-at="2016-06-10T13:21:47Z" finished-at="2016-06-10T13:22:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@15043a2f]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[na]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializer -->
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:applicationComponent.Topfan.IOSAppAc@25084a1e]" name="openApplication" duration-ms="1985" started-at="2016-06-10T13:22:38Z" finished-at="2016-06-10T13:22:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="verifyHomePage()[pri:0, instance:applicationComponent.Topfan.IOSAppAc@25084a1e]" name="verifyHomePage" duration-ms="129882" started-at="2016-06-10T13:22:40Z" finished-at="2016-06-10T13:24:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:applicationComponent.Topfan.IOSAppAc@25084a1e]" name="closeApplication" duration-ms="57" started-at="2016-06-10T13:24:50Z" finished-at="2016-06-10T13:24:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:applicationComponent.Topfan.IOSAppAc@25084a1e]" name="afterTest" is-config="true" duration-ms="1" started-at="2016-06-10T13:24:50Z" finished-at="2016-06-10T13:24:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="reportSuite()[pri:0, instance:applicationComponent.Topfan.IOSAppAc@25084a1e]" name="reportSuite" is-config="true" duration-ms="19" started-at="2016-06-10T13:24:50Z" finished-at="2016-06-10T13:24:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportSuite -->
+      </class> <!-- applicationComponent.Topfan.IOSAppAc -->
+    </test> <!-- 001_TC_IOS_VerifyHomePage -->
+  </suite> <!-- Topfan -->
+</testng-results>

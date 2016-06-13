@@ -1,0 +1,75 @@
+{
+"Icons":
+[
+  {
+  "title": "icon_folder",
+  "id": "1"
+  
+  },
+  {
+  "title": "icon_device",
+  "id": "2"
+  
+  },
+  {
+  "title": "icon_notebook",
+  "id": "3"
+  
+  },
+  {
+  "title": "icon_textbook",
+  "id": "4"
+  
+  }
+  ,
+  {
+  "title": "icon_notecard",
+  "id": "5"
+  
+  },
+  {
+  "title": "icon_workbook",
+  "id": "6"
+  
+  }
+  ],
+"Colors":
+[
+ {
+ "id": "1",
+ "color_code": "#3B182C"
+ },
+ {
+ "id": "2",
+ "color_code": "#213A4F"
+ },
+ {
+ "id": "3",
+ "color_code": "#2F7C83"
+ },
+ {
+ "id": "4",
+ "color_code": "#449345"
+ },
+ {
+ "id": "5",
+ "color_code": "#F26844"
+ },
+ {
+ "id": "6",
+ "color_code": "#824A68"
+ },
+ {
+ "id": "7",
+ "color_code": "#678496"
+ },
+ {
+ "id": "8",
+ "color_code": "#71B8BA"
+ },
+ {
+ "id": "9",
+ "color_code": "#A8CE54"
+ }
+ ]
+}

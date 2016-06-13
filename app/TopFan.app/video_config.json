@@ -1,0 +1,24 @@
+{
+  "live_animation_icon": "https://app-assets.top-fan.com/uploads/live_animation_detail/live_animation_icon/1/18ae5a10-ab3a-0133-7bcb-49b2955361a8.png",
+  "use_geolocation": false,
+  "lat": 32.318231,
+  "lng": -86.902298,
+  "radious": 1000,
+  "distance_measurement": "mi",
+  "live_animations": [
+    {
+      "_id": 3,
+      "name": "heart1",
+      "video": "https://app-assets.top-fan.com/uploads/live_animation/video/3/heart1.mp4",
+      "video_enabled": false,
+      "video_name": "video_3"
+    },
+    {
+      "_id": 5,
+      "name": "HEARTBEAT",
+      "video": "https://app-assets.top-fan.com/uploads/live_animation/video/5/ScreenFlow-low2.mp4",
+      "video_enabled": false,
+      "video_name": "video_5"
+                      }
+    ]
+}
